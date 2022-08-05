@@ -1,21 +1,21 @@
 package com.tutorial.boson.firstItem;
 
-import net.minecraft.entity.player.PlayerEntity;
+// import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.world.World;
-import org.apache.commons.io.FileUtils;
+// import net.minecraft.item.ItemGroup;
+// import net.minecraft.item.ItemStack;
+// import net.minecraft.util.ActionResult;
+// import net.minecraft.util.Hand;
+// import net.minecraft.world.World;
+// import org.apache.commons.io.FileUtils;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.charset.Charset;
+// import java.io.File;
+// import java.io.IOException;
+// import java.nio.charset.Charset;
 
 public class ObsidianIngot extends Item {
     public ObsidianIngot() {
-        super(new Properties().group(ItemGroup.MATERIALS));
+        super(new Properties());
     }
 
     // @Override
