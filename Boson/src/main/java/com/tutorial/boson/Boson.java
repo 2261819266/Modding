@@ -1,6 +1,6 @@
 package com.tutorial.boson;
 
-import com.tutorial.boson.melee_weapons.ObsidianSword;
+// import com.tutorial.boson.melee_weapons.ObsidianSword;
 
 // import java.util.logging.Logger;
 
@@ -15,6 +15,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class Boson {
     public Boson() {
         ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+
         // IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         // com.tutorial.boson.first_item.ItemRegistry.ITEMS.register(eventBus);
         // com.tutorial.boson.food.ItemRegistry.ITEMS.register(eventBus);
