@@ -6,6 +6,6 @@ import net.minecraft.item.SwordItem;
 
 public class ObsidianSword extends SwordItem {
     public ObsidianSword() {
-        super(ModItemTier.OBSIDIAN, 10, -2F, new Item.Properties().group(ItemGroup.COMBAT));
+        super(ModItemTier.OBSIDIAN, 3, -2.4F, new Item.Properties().group(ItemGroup.COMBAT));
     }
 }

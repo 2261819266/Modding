@@ -1,6 +1,6 @@
 package com.tutorial.boson.group;
 
-import com.tutorial.boson.first_item.ItemRegistry;
+import com.tutorial.boson.ItemRegistry;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;

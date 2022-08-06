@@ -1,7 +1,7 @@
 package com.tutorial.boson.melee_weapons;
 
 import com.google.common.base.Supplier;
-import com.tutorial.boson.first_item.ItemRegistry;
+import com.tutorial.boson.ItemRegistry;
 
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
