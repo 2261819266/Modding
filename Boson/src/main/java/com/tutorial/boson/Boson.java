@@ -1,5 +1,7 @@
 package com.tutorial.boson;
 
+import com.tutorial.boson.melee_weapons.ObsidianSword;
+
 // import java.util.logging.Logger;
 
 // import com.tutorial.boson.ItemRegistry;
