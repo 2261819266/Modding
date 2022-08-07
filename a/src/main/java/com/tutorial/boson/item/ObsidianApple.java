@@ -7,7 +7,7 @@ import net.minecraft.potion.Effects;
 
 public class ObsidianApple extends Item {
     private static final Food food = new Food.Builder()
-        .saturation(0.4f)
+        .saturation(0.3f)
         .hunger(20)
         .fastToEat()
         .effect(() -> new EffectInstance(Effects.POISON, 40, 1), 1)
