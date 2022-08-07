@@ -1,20 +1,21 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "A#",
-        "#A"
+        "#",
+        "#",
+        "S"
     ],
     "key": {
         "#": {
             "item": "boson:obsidian_ingot"
         },
 
-        "A": {
-            "item": "minecraft:apple"
+        "S": {
+            "item": "minecraft:stick"
         }
     },
     "result": {
-        "item": "boson:obsidian_apple",
-        "count": 2
+        "item": "boson:obsidian_sword",
+        "count": 1
     }
 }
